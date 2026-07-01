@@ -10,9 +10,10 @@
 [![DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/carlosplanchon/firmauy-mcp-inspect)
 
 **firmauy-mcp-inspect** is a small, **read-only** [MCP](https://modelcontextprotocol.io/) server that
-lets an AI assistant inspect documents signed with a Uruguayan cédula de identidad through
+lets an AI assistant inspect documents signed with a Uruguayan cédula de identidad using
 [FirmaUY](https://github.com/carlosplanchon/firmauy). It verifies signatures (PDF/PAdES, XAdES XML,
-or a detached CMS `.p7s`) and validates cédula check digits, all offline and with no smart card.
+or a detached CMS `.p7s`) and validates cédula check digits. Verification runs offline and does not
+require a smart card.
 
 It exists for the one task where an assistant genuinely beats the bare CLI, **triaging a batch of
 signed documents** in plain language. Point it at a folder and it verifies every file, groups the
