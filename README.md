@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.jpg" alt="FirmaUY MCP Inspect, AI-assisted read-only inspection for Uruguayan digital signatures" width="800">
+  <img src="https://raw.githubusercontent.com/carlosplanchon/firmauy-mcp-inspect/main/assets/banner.jpg" alt="FirmaUY MCP Inspect, AI-assisted read-only inspection for Uruguayan digital signatures" width="800">
 </p>
 
 # firmauy-mcp-inspect
