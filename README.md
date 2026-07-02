@@ -4,6 +4,7 @@
 
 # firmauy-mcp-inspect
 
+[![CI](https://github.com/carlosplanchon/firmauy-mcp-inspect/actions/workflows/ci.yml/badge.svg)](https://github.com/carlosplanchon/firmauy-mcp-inspect/actions/workflows/ci.yml)
 [![PyPI version](https://img.shields.io/pypi/v/firmauy-mcp-inspect.svg)](https://pypi.org/project/firmauy-mcp-inspect/)
 [![Python versions](https://img.shields.io/pypi/pyversions/firmauy-mcp-inspect.svg)](https://pypi.org/project/firmauy-mcp-inspect/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
