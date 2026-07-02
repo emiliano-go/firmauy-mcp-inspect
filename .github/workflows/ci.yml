@@ -28,9 +28,9 @@ jobs:
           enable-cache: true
           python-version: ${{ matrix.python-version }}
 
-      # --locked fails if uv.lock is stale, so CI also guards the lockfile.
+      # uv.lock is not versioned (library convention), so resolve deps fresh each run.
       - name: Install dependencies
-        run: uv sync --locked --group dev
+        run: uv sync --group dev
 
       # Tests mock the `firmauy` subprocess, so no CLI or smart card is needed.
       - name: Run tests
